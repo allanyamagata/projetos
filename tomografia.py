@@ -96,7 +96,7 @@ imagem_tomografia(d, redimensionar=(500, 250))
 '''
 
 # imagem da questao 3 (centro do pixel)
-
+'''
 a = np.array([[1, 1, 1, 0, 0, 0, 0, 0, 0],
             [0, 0, 0, 1, 1, 1, 0, 0, 0],
             [0, 0, 0, 0, 0, 0, 1, 1, 1],
@@ -115,3 +115,4 @@ b = np.array([8.00, 15.00, 13.00, 14.79, 14.31, 3.81, 18.00, 12.00, 6.00, 10.51,
 d = vetor_densidades(a, b, p_max=45)
 
 imagem_tomografia(d, remodelar=(3, 3), redimensionar=(300, 300), proporcional_fracao=True)
+'''
